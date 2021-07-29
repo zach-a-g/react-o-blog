@@ -5,9 +5,289 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+#App {
+  position: relative;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  width: 95%;
+  margin-left: 2%;
+  margin: auto;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  width: 95%;
+  border-width: .4px;
+  background-color: grey;
+}
+
+#titleName {
+  display: flex;
+  justify-content: center;
+  font-size: 300%;
+  font-weight: 150;
+}
+
+#menuBox {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 95vw;
+  margin: auto;
+}
+
+#boxContent {
+  display: flex;
+  background-color: rgba(90, 89, 89, 0.596);
+  color:rgb(73, 152, 255);
+  width: 18%;
+  justify-content: center;
+  height: 5rem;
+  align-items: center;
+  border-radius: 8px;
+}
+
+button {
+  border: none;
+  color: rgb(73, 152, 255);
+  font-weight: 400;
+  background-color: none;
+  border-color: none;
+  background: none;
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+#contactImg {
+  display: flex;
+  justify-content: center;
+}
+
+#contentSection1 {
+  margin: auto;
+  border-radius: 6px;
+  background-color: rgba(90, 89, 89, 0.596);
+  width: 90%;
+  padding: 10px;
+  
+}
+
+#boxTitle {
+  color: rgb(73, 152, 255);
+}
+
+header {
+  display: flex;
+  position: absolute;
+  color: white;
+  justify-content: space-between;
+  top: 0;
+}
+
+#topNavBox {
+  display: block;
+  justify-content: space-between;
+  width: 85vw;
+  margin: auto;
+  position: sticky;
+  top: 0;
+}
+
+#navLeft {
+  display: flex;
+}
+
+#navRight {
+  display: flex;
+}
+
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  width: 97vw;
+  margin: auto;
+  align-items: center;
+}
+
+#navContent {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+#navStuff {
+  display: flex;
+  flex-direction: row;
+  color: rgb(73, 152, 255);
+  padding: 10px;
+  font-size: x-large;
+}
+
+#navStuffplus {
+  display: flex;
+  flex-direction: row;
+  color: rgb(73, 152, 255);
+  padding: 10px;
+  font-size: 40px;
+  font-weight: 250;
+}
+
+#contactPhoto {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  border-radius: 100%;
+}
+
+#contactImg {
+  color: blue;
+  justify-content: center;
+  display: flex;
+  width: 30%;
+  font-weight: 150;
+  align-items: center;
+  align-content: center;
+}
+
+
+
+#searchBar {
+  background-color: rgba(90, 89, 89, 0.596);
+  border-radius: 8px;
+  width: 93%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  padding: 10px;
+}
+
+#myCard {
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+
+#picSide {
+  color: white;
+  display: flex;
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#cardName {
+  color: white;
+  display: block;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+}
+
+#cardInner {
+  padding-left: 10px;
+  margin: 0;
+  font-size: small;
+}
+
+#cardInnerName {
+  padding-left: 10px;
+  margin: 0;
+  font-weight: 600;
+}
+
+#footer {
+  display: block;
+  position: sticky;
+  background-color: rgb(59, 56, 56);
+  color: white;
+  justify-content: space-between;
+  bottom: 0;
+}
+
+#footerContent {
+  width: 95vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  position: sticky;
+}
+
+#icon {
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 50%;
+  margin: auto;
+  
+}
+
+#footerSection1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  bottom: 0;
+}
+
+#footerTitle {
+  color: rgb(73, 152, 255);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#letter {
+  background-color: rgba(90, 89, 89, 0.596);
+  text-align: left;
+  padding-left: 2.5%;
+  color: white;
+
+}
+
+#sideLetters {
+  right: 0;
+  position: fixed;
+  color: white;
+  height: 50%;
+}
+
+#let {
+  padding: .1px;
+  font-size: 12px;
+  margin: 0;
+  color: rgb(73, 152, 255);
+  padding-right: 3px;
 }
